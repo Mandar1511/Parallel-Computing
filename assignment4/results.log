@@ -1,0 +1,123 @@
+==========================================
+SLURM_CLUSTER_NAME = paramutkarsh
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = nsmexternal
+SLURM_JOB_ID = 151753
+SLURM_JOB_NAME = dissbar
+SLURM_JOB_NODELIST = cn[001-003,025-028,090,092-099]
+SLURM_JOB_USER = iitdh2
+SLURM_JOB_UID = 21528
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 15072
+SLURM_SUBMIT_DIR = /home/iitdh2/cs410assignment4_mpi-Mandar1511
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 768
+SLURM_TASK_PID = 15072
+==========================================
+Now running SCATTER assignment
+Launching command with 1 tasks...
+
+ RANKS=1 Iters=1000000
+Custom Allreduce Time: 0.0270307 seconds, Rate: 3.69949e+07 allreduces/sec
+MPI_Allreduce Time: 0.158113 seconds, Rate: 6.32461e+06 allreduces/sec
+Launching command with 2 tasks...
+
+ RANKS=2 Iters=1000000
+Custom Allreduce Time: 1.29347 seconds, Rate: 773113 allreduces/sec
+MPI_Allreduce Time: 1.44469 seconds, Rate: 692190 allreduces/sec
+Launching command with 4 tasks...
+
+ RANKS=4 Iters=1000000
+Custom Allreduce Time: 3.25701 seconds, Rate: 307030 allreduces/sec
+MPI_Allreduce Time: 2.37474 seconds, Rate: 421099 allreduces/sec
+Launching command with 8 tasks...
+
+ RANKS=8 Iters=1000000
+Custom Allreduce Time: 5.19123 seconds, Rate: 192633 allreduces/sec
+MPI_Allreduce Time: 3.33962 seconds, Rate: 299435 allreduces/sec
+Launching command with 16 tasks...
+
+ RANKS=16 Iters=1000000
+Custom Allreduce Time: 7.89359 seconds, Rate: 126685 allreduces/sec
+MPI_Allreduce Time: 5.19639 seconds, Rate: 192441 allreduces/sec
+Launching command with 32 tasks...
+
+ RANKS=32 Iters=1000000
+Custom Allreduce Time: 10.7136 seconds, Rate: 93339.5 allreduces/sec
+MPI_Allreduce Time: 6.284 seconds, Rate: 159134 allreduces/sec
+Launching command with 64 tasks...
+
+ RANKS=64 Iters=1000000
+Custom Allreduce Time: 13.7728 seconds, Rate: 72607.1 allreduces/sec
+MPI_Allreduce Time: 6.87658 seconds, Rate: 145421 allreduces/sec
+Launching command with 128 tasks...
+
+ RANKS=128 Iters=1000000
+Custom Allreduce Time: 18.9975 seconds, Rate: 52638.6 allreduces/sec
+MPI_Allreduce Time: 7.02273 seconds, Rate: 142395 allreduces/sec
+Launching command with 256 tasks...
+
+ RANKS=256 Iters=1000000
+Custom Allreduce Time: 23.4669 seconds, Rate: 42613.3 allreduces/sec
+MPI_Allreduce Time: 7.179 seconds, Rate: 139295 allreduces/sec
+Launching command with 512 tasks...
+
+ RANKS=512 Iters=1000000
+Custom Allreduce Time: 28.783 seconds, Rate: 34742.7 allreduces/sec
+MPI_Allreduce Time: 7.44485 seconds, Rate: 134321 allreduces/sec
+Now running COMPACT assignment
+Launching command with 1 tasks...
+
+ RANKS=1 Iters=1000000
+Custom Allreduce Time: 0.0256888 seconds, Rate: 3.89275e+07 allreduces/sec
+MPI_Allreduce Time: 0.140356 seconds, Rate: 7.12476e+06 allreduces/sec
+Launching command with 2 tasks...
+
+ RANKS=2 Iters=1000000
+Custom Allreduce Time: 0.7016 seconds, Rate: 1.42531e+06 allreduces/sec
+MPI_Allreduce Time: 0.939501 seconds, Rate: 1.0644e+06 allreduces/sec
+Launching command with 4 tasks...
+
+ RANKS=4 Iters=1000000
+Custom Allreduce Time: 2.08867 seconds, Rate: 478774 allreduces/sec
+MPI_Allreduce Time: 1.11093 seconds, Rate: 900147 allreduces/sec
+Launching command with 8 tasks...
+
+ RANKS=8 Iters=1000000
+Custom Allreduce Time: 3.17849 seconds, Rate: 314615 allreduces/sec
+MPI_Allreduce Time: 1.32238 seconds, Rate: 756211 allreduces/sec
+Launching command with 16 tasks...
+
+ RANKS=16 Iters=1000000
+Custom Allreduce Time: 4.34856 seconds, Rate: 229961 allreduces/sec
+MPI_Allreduce Time: 1.57266 seconds, Rate: 635865 allreduces/sec
+Launching command with 32 tasks...
+
+ RANKS=32 Iters=1000000
+Custom Allreduce Time: 5.92054 seconds, Rate: 168903 allreduces/sec
+MPI_Allreduce Time: 1.73726 seconds, Rate: 575621 allreduces/sec
+Launching command with 64 tasks...
+
+ RANKS=64 Iters=1000000
+Custom Allreduce Time: 17.0302 seconds, Rate: 58719.4 allreduces/sec
+MPI_Allreduce Time: 3.38528 seconds, Rate: 295396 allreduces/sec
+Launching command with 128 tasks...
+
+ RANKS=128 Iters=1000000
+Custom Allreduce Time: 21.2904 seconds, Rate: 46969.5 allreduces/sec
+MPI_Allreduce Time: 3.90675 seconds, Rate: 255967 allreduces/sec
+Launching command with 256 tasks...
+
+ RANKS=256 Iters=1000000
+Custom Allreduce Time: 26.6371 seconds, Rate: 37541.6 allreduces/sec
+MPI_Allreduce Time: 4.94292 seconds, Rate: 202310 allreduces/sec
+Launching command with 512 tasks...
+
+ RANKS=512 Iters=1000000
+Custom Allreduce Time: 35.5621 seconds, Rate: 28119.9 allreduces/sec
+MPI_Allreduce Time: 8.35123 seconds, Rate: 119743 allreduces/sec
+Done.

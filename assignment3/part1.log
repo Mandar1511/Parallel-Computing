@@ -1,0 +1,61 @@
+==========================================
+SLURM_CLUSTER_NAME = paramutkarsh
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = nsmexternal
+SLURM_JOB_ID = 149365
+SLURM_JOB_NAME = submit.sbatch
+SLURM_JOB_NODELIST = gpu003
+SLURM_JOB_USER = iitdh2
+SLURM_JOB_UID = 21528
+SLURM_JOB_PARTITION = gpu
+SLURM_TASK_PID = 21266
+SLURM_SUBMIT_DIR = /home/iitdh2/cs410assignment4-Mandar1511
+SLURM_CPUS_ON_NODE = 40
+SLURM_NTASKS = 40
+SLURM_TASK_PID = 21266
+==========================================
+nvcc -O3 -o matmul matmul.cu -std=c++11
+echo "Executing matmul for n = 1024"; 
+Executing matmul for n = 1024
+./matmul 1024
+Device Computation time in ms: 1
+
+Device Computation time including data transfer in ms: 4
+
+Host Computation time in ms: 3579
+
+Results are correct.
+echo "Executing matmul for n = 2048"; 
+Executing matmul for n = 2048
+./matmul 2048
+Device Computation time in ms: 8
+
+Device Computation time including data transfer in ms: 19
+
+Host Computation time in ms: 29318
+
+Results are correct.
+echo "Executing matmul for n = 4096"; 
+Executing matmul for n = 4096
+./matmul 4096
+Device Computation time in ms: 68
+
+Device Computation time including data transfer in ms: 106
+
+Host Computation time in ms: 549803
+
+Results are correct.
+echo "Executing matmul for n = 8192"; 
+Executing matmul for n = 8192
+./matmul 8192
+Device Computation time in ms: 528
+
+Device Computation time including data transfer in ms: 611
+
+Host Computation time in ms: 5820441
+
+Results are correct.
