@@ -1,0 +1,8 @@
+To run 
+bash cilk_run.sh  fib 47
+bash cilk_run.sh  fib_cutoff 47 5
+
+
+To produce cilkscale graphs and benchmakrs
+
+bash cilkscale_run.sh fib_cutoff 45 20

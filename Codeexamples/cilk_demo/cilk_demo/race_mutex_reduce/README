@@ -1,0 +1,7 @@
+To compare the speeds of racy version, locked version, vs. cilk reducer version:
+bash cilk_run.sh 1000000
+
+To detect data races
+bash cilk_race.sh  sum_race 10000
+bash cilk_race.sh  sum_mutex 10000
+bash cilk_race.sh  sum_reducer2 10000
